@@ -1,3 +1,13 @@
+"""
+File:			window.py
+Project:		MikuAssist
+Date:			12/29/22
+Author:			AzureMouse
+Description:
+Contains the properties of the window that are needed for pygame.
+"""
+
+
 class Window:
 	def __init__(self, width = 400, height = 600, black = (0, 0, 0)):
 		self.width = width
